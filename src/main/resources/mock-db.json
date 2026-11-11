@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "山田太郎",
+      "email": "student1@example.com",
+      "password_hash": "dummy_hash_001"
+    },
+    {
+      "id": 2,
+      "name": "佐藤花子",
+      "email": "student2@example.com",
+      "password_hash": "dummy_hash_002"
+    },
+    {
+      "id": 3,
+      "name": "田中先生",
+      "email": "teacher1@example.com",
+      "password_hash": "dummy_hash_003"
+    }
+  ],
+  "rooms": [],
+  "room_members": [],
+  "messages": []
+}
