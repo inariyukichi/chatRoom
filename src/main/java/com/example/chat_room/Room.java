@@ -5,7 +5,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
-//起動時にroomデーブルが自動で作成される
+// このクラスをDBのエンティティとして定義する
 @Entity
 public class Room {
     //主キー
