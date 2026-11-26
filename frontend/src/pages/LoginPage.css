@@ -129,3 +129,5 @@
     padding: 28px 22px;
   }
 }
+
+.login-error { color: #c00; }
