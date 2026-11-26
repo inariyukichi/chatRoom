@@ -3,13 +3,13 @@ import LoginPage from "./pages/LoginPage";
 import HomePage from "./pages/HomePage";
 
 function App() {
-  //ログイン済みかの確認 初期値はfalse(未ログイン)
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+//   useState(null) 今ログインしてる人を入れる箱
+  const [currentUser, setCurrentUser] = useState(null);
 
-  //未ログインの間はLoginPageだけを出す
-  if (!isLoggedIn) {
-    return <LoginPage onLogin={() => setIsLoggedIn(true)} />;
+  if (currentUser === null) {
+    return <LoginPage onLogin={setCurrentUser} />;
   }
+
   return <HomePage />;
 }
 
