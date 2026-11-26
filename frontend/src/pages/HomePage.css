@@ -1,0 +1,28 @@
+.home {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.create-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.create-form input {
+  flex: 1;
+  padding: 8px;
+}
+
+.room-list {
+  list-style: none;
+  padding: 0;
+}
+
+.room-list li {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 8px;
+}
