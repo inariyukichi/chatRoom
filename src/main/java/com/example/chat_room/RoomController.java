@@ -37,7 +37,7 @@ public class RoomController {
     public Room create(@RequestBody Map<String, String> body) {
         //body.get("name") Mapからnameを取得する
         //new Roomで作る　保存するとDBがidを付ける
-        Room room = new Room(body.get("name"));
+        Room room = new Room(body.get("roomName"));
         return roomRepository.save(room);
     }
 }
